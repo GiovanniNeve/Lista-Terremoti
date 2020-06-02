@@ -35,6 +35,9 @@ h1 {
 
 iframe {
     margin-top: 40px;
+    width: 100%;
+    height: 94%;
+    z-index: 1;
 }
 
 .hide {
