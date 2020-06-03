@@ -1,17 +1,31 @@
+//* Declare some array
+var eventDateArray = [];
+var eventLocationArray = [];
+var eventRitcherArray = [];
+var eventMagnitudoArray = [];
+var eventMercalliArray = [];
+var eventDeathArray = [];
+
+//* Fill array with JSON data
+for (var i = 0; i < dataArray.length; i++) {
+    eventDateArray.push(dataArray[i].dataEvento);
+    eventLocationArray.push(dataArray[i].luogo);
+    eventRitcherArray.push(dataArray[i].ritcher);
+    eventMagnitudoArray.push(dataArray[i].magnitudo);
+    eventMercalliArray.push(dataArray[i].mercalli);
+    eventDeathArray.push(dataArray[i].vittime);
+}
+
+//* Create chart
 var ctx = document.getElementById('canvasChart').getContext('2d');
+
 var canvasChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'line',
     data: {
-        labels: function() {
-            var array = [];
-            for (var i = 0; i < dataArray.lenght; i++) {
-                array.push(dataArray[i].data);
-            }
-            return array;
-        },
+        labels: eventDateArray,
         datasets: [{
             label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            data: eventMercalliArray,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',

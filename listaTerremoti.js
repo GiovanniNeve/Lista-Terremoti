@@ -1,27 +1,27 @@
-var dataEventoArray = [
+var dataArray = [
 
     {
         "dataEvento": "30/10/1901",
         "luogo": "Salò",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "24/02/1904",
         "luogo": "Magliano dei Marsi",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.7",
         "mercalli": "9",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "08/09/1905",
         "luogo": "Nicastro",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "7.1",
         "mercalli": "9.5",
         "vittime": "557"
@@ -30,8 +30,8 @@ var dataEventoArray = [
     {
         "dataEvento": "23/10/1907",
         "luogo": "Canolo e San Luca",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "167"
     },
@@ -39,16 +39,16 @@ var dataEventoArray = [
     {
         "dataEvento": "18/12/1907",
         "luogo": "Irpinia e Basilicata",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "28/12/1908",
         "luogo": "Messina",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "7.2",
         "mercalli": "11.5",
         "vittime": "120000"
@@ -57,8 +57,8 @@ var dataEventoArray = [
     {
         "dataEvento": "07/06/1910",
         "luogo": "Calitri",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "45"
     },
@@ -66,8 +66,8 @@ var dataEventoArray = [
     {
         "dataEvento": "15/10/1911",
         "luogo": "Etna",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "10",
         "vittime": "13"
     },
@@ -75,8 +75,8 @@ var dataEventoArray = [
     {
         "dataEvento": "08/05/1914",
         "luogo": "linera",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "9.5",
         "vittime": "70"
     },
@@ -93,7 +93,7 @@ var dataEventoArray = [
     {
         "dataEvento": "13/01/1915",
         "luogo": "Avezzano",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "7",
         "mercalli": "11",
         "vittime": "30519"
@@ -102,8 +102,8 @@ var dataEventoArray = [
     {
         "dataEvento": "16/08/1916",
         "luogo": "Provincia di Pesaro",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "4"
     },
@@ -111,8 +111,8 @@ var dataEventoArray = [
     {
         "dataEvento": "26/04/1917",
         "luogo": "Umbria e Toscana",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "9",
         "vittime": "20"
     },
@@ -120,16 +120,16 @@ var dataEventoArray = [
     {
         "dataEvento": "24/11/1918",
         "luogo": "Giarre",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
         "vittime": "100"
     },
 
     {
         "dataEvento": "29/06/1919",
         "luogo": "Vicchio",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "6.2",
         "mercalli": "9",
         "vittime": "100"
@@ -138,16 +138,16 @@ var dataEventoArray = [
     {
         "dataEvento": "22/10/1919",
         "luogo": "Anzio",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "07/09/1920",
         "luogo": "Fivizzano e Villa Collemandina",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "6.8",
         "mercalli": "9.5",
         "vittime": "171"
@@ -156,34 +156,34 @@ var dataEventoArray = [
     {
         "dataEvento": "29/12/1922",
         "luogo": "Frosinone",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "02/01/1924",
         "luogo": "Senigallia",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "17/08/1926",
         "luogo": "Isole Eolie",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "26/12/1927",
         "luogo": "Colli Albani",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "4.8",
         "mercalli": "8",
         "vittime": "2"
@@ -192,8 +192,8 @@ var dataEventoArray = [
     {
         "dataEvento": "17/03/1928",
         "luogo": "Carnia",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "11"
     },
@@ -201,16 +201,16 @@ var dataEventoArray = [
     {
         "dataEvento": "10/04/1929",
         "luogo": "Bologna",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "23/07/1930",
         "luogo": "Bisaccia e Lacedonia",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "6.7",
         "mercalli": "10",
         "vittime": "1404"
@@ -219,8 +219,8 @@ var dataEventoArray = [
     {
         "dataEvento": "30/10/1930",
         "luogo": "Provincia di Pesaro",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "18"
     },
@@ -228,8 +228,8 @@ var dataEventoArray = [
     {
         "dataEvento": "26/09/1933",
         "luogo": "Majella",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "12"
     },
@@ -238,7 +238,7 @@ var dataEventoArray = [
         "dataEvento": "18/10/1936",
         "luogo": "Prealpi Trevigiane",
         "ritcher": "5.9",
-        "magnitudo": "-1",
+        "magnitudo": "0",
         "mercalli": "9",
         "vittime": "19"
     },
@@ -246,17 +246,17 @@ var dataEventoArray = [
     {
         "dataEvento": "13/04/1938",
         "luogo": "Mar Tirreno",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "15/01/1940",
         "luogo": "Palermo",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8",
         "vittime": "1"
     },
@@ -264,9 +264,9 @@ var dataEventoArray = [
     {
         "dataEvento": "03/10/1943",
         "luogo": "Offida e Castignano",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
         "vittime": "15"
     },
 
@@ -276,7 +276,7 @@ var dataEventoArray = [
         "ritcher": "4.8",
         "magnitudo": "4.9",
         "mercalli": "6.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
@@ -285,23 +285,23 @@ var dataEventoArray = [
         "ritcher": "5.1",
         "magnitudo": "5.3",
         "mercalli": "8.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "15/12/1945",
         "luogo": "Oltrepò Pavese",
         "ritcher": "4.7",
-        "magnitudo": "-1",
+        "magnitudo": "0",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "10/05/1947",
         "luogo": "Golfo di Squillace",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "2"
     },
@@ -309,8 +309,8 @@ var dataEventoArray = [
     {
         "dataEvento": "13/06/1948",
         "luogo": "Sansepolcro",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
         "vittime": "1"
     },
@@ -318,16 +318,16 @@ var dataEventoArray = [
     {
         "dataEvento": "18/08/1948",
         "luogo": "Gargano",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "05/09/1950",
         "luogo": "Fano Adriano",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.8",
         "mercalli": "8",
         "vittime": "2"
@@ -337,52 +337,52 @@ var dataEventoArray = [
         "dataEvento": "15/05/1951",
         "luogo": "Montescano",
         "ritcher": "5.2",
-        "magnitudo": "-1",
+        "magnitudo": "0",
         "mercalli": "6.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "01/09/1951",
         "luogo": "Marche",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "12/05/1955",
         "luogo": "valle Maria",
         "ritcher": "4.7",
-        "magnitudo": "-1",
+        "magnitudo": "0",
         "mercalli": "6.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "20/06/1955",
         "luogo": "Valle Maria",
         "ritcher": "4.8",
-        "magnitudo": "-1",
+        "magnitudo": "0",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "24/06/1958",
         "luogo": "L'Aquila",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "21/08/1962",
         "luogo": "Ariano Irpino",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "9",
         "vittime": "17"
     },
@@ -391,15 +391,15 @@ var dataEventoArray = [
         "dataEvento": "31/10/1967",
         "luogo": "Mistretta",
         "ritcher": "5.9",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "15/01/1968",
         "luogo": "Gibellina",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "6.1",
         "mercalli": "10",
         "vittime": "370"
@@ -408,7 +408,7 @@ var dataEventoArray = [
     {
         "dataEvento": "06/02/1971",
         "luogo": "Tuscania e Tarquinia",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.6",
         "mercalli": "8",
         "vittime": "31"
@@ -417,25 +417,25 @@ var dataEventoArray = [
     {
         "dataEvento": "15/06/1972",
         "luogo": "Ancona",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "26/11/1972",
         "luogo": "Comunanza",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.5",
         "mercalli": "8",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "06/05/1976",
         "luogo": "Artenga",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "6.4",
         "mercalli": "10",
         "vittime": "989"
@@ -444,26 +444,26 @@ var dataEventoArray = [
     {
         "dataEvento": "15/04/1978",
         "luogo": "Golfo di Patti",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
         "vittime": "5"
     },
 
     {
         "dataEvento": "25/09/1978",
         "luogo": "matera",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "19/09/1979",
         "luogo": "Norcia",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "9",
         "vittime": "5"
     },
@@ -474,13 +474,13 @@ var dataEventoArray = [
         "ritcher": "4.8",
         "magnitudo": "5",
         "mercalli": "6.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "23/11/1980",
         "luogo": "Castelnuovo di Conza",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "6.9",
         "mercalli": "10.5",
         "vittime": "2914"
@@ -489,17 +489,17 @@ var dataEventoArray = [
     {
         "dataEvento": "04/10/1983",
         "luogo": "Napoli e Pozzulli",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "8",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "24/04/1985",
         "luogo": "Livorno",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
         "vittime": "3"
     },
@@ -507,16 +507,16 @@ var dataEventoArray = [
     {
         "dataEvento": "29/04/1984",
         "luogo": "Gubbio",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "07/05/1984",
         "luogo": "San Donato",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.9",
         "mercalli": "8",
         "vittime": "7"
@@ -525,26 +525,26 @@ var dataEventoArray = [
     {
         "dataEvento": "03/07/1987",
         "luogo": "Porto San Giorgio",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "05/05/1990",
         "luogo": "Basilicata",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "13/12/1990",
         "luogo": "Basilicata",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
         "vittime": "17"
     },
@@ -552,44 +552,44 @@ var dataEventoArray = [
     {
         "dataEvento": "26/05/1991",
         "luogo": "Carlentini",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "21/04/1995",
         "luogo": "Riviera di Ponente",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "30/09/1995",
         "luogo": "Peschici",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "10/10/1995",
         "luogo": "Fivizzano",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "15/10/1996",
         "luogo": "Reggio nell'Emilia",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
         "vittime": "2"
     },
@@ -597,7 +597,7 @@ var dataEventoArray = [
     {
         "dataEvento": "26/09/1997",
         "luogo": "Annifo e Colfiorito",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.9",
         "mercalli": "10",
         "vittime": "11"
@@ -606,8 +606,8 @@ var dataEventoArray = [
     {
         "dataEvento": "09/09/1998",
         "luogo": "Monte Pollino",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "7",
         "vittime": "2"
     },
@@ -615,55 +615,55 @@ var dataEventoArray = [
     {
         "dataEvento": "23/09/1998",
         "luogo": "Provincia di Foggia",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "5.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "25/01/1999",
         "luogo": "Provincia di Forli-Cesena",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "14/02/1999",
         "luogo": "Golfo di Patti",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "07/07/1999",
         "luogo": "Appennino tosco-emiliano",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "09/10/1999",
         "luogo": "Vasuio",
-        "ritcher": "-1",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "ritcher": "0",
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "29/12/1999",
         "luogo": "valtellina",
-        "ritcher": "-1",
-        "magnitudo": "-1",
+        "ritcher": "0",
+        "magnitudo": "0",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
@@ -672,22 +672,22 @@ var dataEventoArray = [
         "ritcher": "4.7",
         "magnitudo": "4.9",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "17/07/2001",
         "luogo": "Alto Adige",
         "ritcher": "5.2",
-        "magnitudo": "-1",
-        "mercalli": "-1",
+        "magnitudo": "0",
+        "mercalli": "0",
         "vittime": "4"
     },
 
     {
         "dataEvento": "06/09/2002",
         "luogo": "Mar Tirreno",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.6",
         "mercalli": "8",
         "vittime": "2"
@@ -708,52 +708,52 @@ var dataEventoArray = [
         "ritcher": "4.8",
         "magnitudo": "5",
         "mercalli": "6.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "14/09/2003",
         "luogo": "Bologna",
         "ritcher": "5",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "24/11/2004",
         "luogo": "Salò",
         "ritcher": "5.3",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "26/10/2006",
         "luogo": "Stromboli",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.6",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "17/12/2008",
         "luogo": "Mar Tirreno",
         "ritcher": "5.3",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
         "dataEvento": "23/12/2008",
         "luogo": "Parma",
         "ritcher": "5.2",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
@@ -768,10 +768,10 @@ var dataEventoArray = [
     {
         "dataEvento": "27/01/2012",
         "luogo": "Comiglio",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.4",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
@@ -805,16 +805,16 @@ var dataEventoArray = [
         "dataEvento": "21/06/2013",
         "luogo": "Fivizzano",
         "ritcher": "5.2",
-        "magnitudo": "-1",
+        "magnitudo": "0",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
         "dataEvento": "29/12/2013",
         "luogo": "San Potito Sannitico",
         "ritcher": "5",
-        "magnitudo": "-1",
+        "magnitudo": "0",
         "mercalli": "6.5",
         "vittime": "1"
     },
@@ -831,9 +831,9 @@ var dataEventoArray = [
     {
         "dataEvento": "26/10/2016",
         "luogo": "Castelsantangelo",
-        "ritcher": "-1",
+        "ritcher": "0",
         "magnitudo": "5.6",
-        "mercalli": "-1",
+        "mercalli": "0",
         "vittime": "1"
     },
 
@@ -841,9 +841,9 @@ var dataEventoArray = [
         "dataEvento": "28/10/2016",
         "luogo": "Mar Tirreno",
         "ritcher": "5.7",
-        "magnitudo": "-1",
-        "mercalli": "-1",
-        "vittime": "-1"
+        "magnitudo": "0",
+        "mercalli": "0",
+        "vittime": "0"
     },
 
     {
@@ -851,7 +851,7 @@ var dataEventoArray = [
         "luogo": "Norcia",
         "ritcher": "6.1",
         "magnitudo": "6.5",
-        "mercalli": "-1",
+        "mercalli": "0",
         "vittime": "2"
     },
 
@@ -860,7 +860,7 @@ var dataEventoArray = [
         "luogo": "Capitignano",
         "ritcher": "5.3",
         "magnitudo": "5.4",
-        "mercalli": "-1",
+        "mercalli": "0",
         "vittime": "29"
     },
 
@@ -879,7 +879,7 @@ var dataEventoArray = [
         "ritcher": "4.8",
         "magnitudo": "4.8",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
@@ -888,7 +888,7 @@ var dataEventoArray = [
         "ritcher": "4.8",
         "magnitudo": "4.6",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
@@ -906,7 +906,7 @@ var dataEventoArray = [
         "ritcher": "4.6",
         "magnitudo": "4.3",
         "mercalli": "4.5",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
@@ -915,7 +915,7 @@ var dataEventoArray = [
         "ritcher": "4.5",
         "magnitudo": "4.5",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
     {
@@ -924,7 +924,7 @@ var dataEventoArray = [
         "ritcher": "4.4",
         "magnitudo": "4.3",
         "mercalli": "6",
-        "vittime": "-1"
+        "vittime": "0"
     },
 
 ];
