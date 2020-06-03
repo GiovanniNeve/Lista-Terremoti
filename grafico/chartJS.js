@@ -24,7 +24,7 @@ var canvasChart = new Chart(ctx, {
     data: {
         labels: eventDateArray,
         datasets: [{
-            label: '# of Votes',
+            label: '# of Mercalli',
             data: eventMercalliArray,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
