@@ -44,3 +44,13 @@ iframe {
 .hide {
     display: none;
 }
+
+#setButton {
+    float: left;
+}
+
+iframe {
+    width: 100%;
+    height: 94%;
+    z-index: 1;
+}

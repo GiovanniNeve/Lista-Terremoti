@@ -7,8 +7,16 @@
 <body>
 
     <h1> Grafico </h1>
-
-    <canvas id="canvasChart" width="90%" height="35%"></canvas>
+    <div id="canvasDiv">
+        <button id="setButton">Set</button>
+        <select id="dataSelector" required>
+            <option value="eventMercalliArray">mercalli</option>
+            <option value="eventRitcherArray">ritcher</option>
+            <option value="eventMagnitudoArray">magnitudo</option>
+            <option value="eventDeathArray">vittime</option>
+        </select>
+    </div>
+    <canvas id="canvasChart" width="900px" height="300px"></canvas>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="../listaTerremoti.js"></script>
