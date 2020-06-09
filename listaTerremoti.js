@@ -928,3 +928,34 @@ var dataArray = [
     },
 
 ];
+
+//* Declare some array
+var eventDateArray = [];
+var eventLocationArray = [];
+var eventRitcherArray = [];
+var eventMagnitudoArray = [];
+var eventMercalliArray = [];
+var eventDeathArray = [];
+
+//* Fill array with JSON data
+function setData(data) {
+    //* Clear the arrays
+    eventDateArray = [];
+    eventLocationArray = [];
+    eventRitcherArray = [];
+    eventMagnitudoArray = [];
+    eventMercalliArray = [];
+    eventDeathArray = [];
+
+    //* Fill the array
+    for (var i = 0; i < data.length; i++) {
+        eventDateArray.push(data[i].dataEvento);
+        eventLocationArray.push(data[i].luogo);
+        eventRitcherArray.push(data[i].ritcher);
+        eventMagnitudoArray.push(data[i].magnitudo);
+        eventMercalliArray.push(data[i].mercalli);
+        eventDeathArray.push(data[i].vittime);
+    }
+}
+
+setData(dataArray);

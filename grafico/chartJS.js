@@ -3,24 +3,6 @@ var ctx = canvas.getContext('2d');
 var button = document.getElementById("setButton");
 var canvasChart = null;
 
-//* Declare some array
-var eventDateArray = [];
-var eventLocationArray = [];
-var eventRitcherArray = [];
-var eventMagnitudoArray = [];
-var eventMercalliArray = [];
-var eventDeathArray = [];
-
-//* Fill array with JSON data
-for (var i = 0; i < dataArray.length; i++) {
-    eventDateArray.push(dataArray[i].dataEvento);
-    eventLocationArray.push(dataArray[i].luogo);
-    eventRitcherArray.push(dataArray[i].ritcher);
-    eventMagnitudoArray.push(dataArray[i].magnitudo);
-    eventMercalliArray.push(dataArray[i].mercalli);
-    eventDeathArray.push(dataArray[i].vittime);
-}
-
 button.addEventListener("click", () => {
     var selector = document.getElementById("dataSelector").value;
     switch (selector) {
