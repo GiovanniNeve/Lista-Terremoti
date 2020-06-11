@@ -1,21 +1,28 @@
 var canvas = document.getElementById('canvasChart');
 var ctx = canvas.getContext('2d');
-var button = document.getElementById("setButton");
+var dataSelector = document.getElementById("dataSelector");
 var canvasChart = null;
+var activeChart = null;
 
-button.addEventListener("click", () => {
+dataSelector.addEventListener("click", () => {
     var selector = document.getElementById("dataSelector").value;
     switch (selector) {
+        case activeChart:
+            break;
         case "eventRitcherArray":
+            activeChart = "eventRitcherArray";
             makeChart(eventRitcherArray, 'Ritcher');
             break;
         case "eventMagnitudoArray":
+            activeChart = "eventMagnitudoArray";
             makeChart(eventMagnitudoArray, 'Magnitudo');
             break;
         case "eventMercalliArray":
+            activeChart = "eventMercalliArray";
             makeChart(eventMercalliArray, 'Mercalli');
             break;
         case "eventDeathArray":
+            activeChart = "eventDeathArray";
             makeChart(eventDeathArray, 'Vittime');
             break;
     }

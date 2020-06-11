@@ -1,9 +1,12 @@
 var mainTable = document.getElementById("mainTable");
+var dataSelector = document.getElementById("dataSelector");
+var sortedArray;
+var activeList = null;
 
 //*---------- Function that create the table ----------
-function createTable(data) {
-    setData(data);
-    for (var index1 = 1; index1 < data.length + 1; index1++) {
+function createTable(obj) {
+    setData(obj);
+    for (var index1 = 1; index1 < obj.length + 1; index1++) {
         let row = mainTable.insertRow(index1);
         let cell = new Array(6);
         cell[0] = row.insertCell();
@@ -22,27 +25,63 @@ function createTable(data) {
 
 }
 
-//* ---------- Print data in the console ----------
-function consolePrint(data) {
-    for (var i = 0; i < data.length; i++) {
-        console.log(data[i].vittime);
+//* ---------- Get data from selector ----------
+dataSelector.addEventListener("click", () => {
+    var selector = document.getElementById("dataSelector").value;
+    switch (selector) {
+        case activeList:
+            break;
+        case "eventRitcherArray":
+            activeList = "eventRitcherArray";
+            sortedArray = itemSort(dataArray, eventRitcherArray);
+            createTable(sortedArray);
+            break;
+        case "eventMagnitudoArray":
+            activeList = "eventMagnitudoArray";
+            sortedArray = itemSort(dataArray, eventMagnitudoArray);
+            createTable(sortedArray);
+            break;
+        case "eventMercalliArray":
+            activeList = "eventMercalliArray";
+            sortedArray = itemSort(dataArray, eventMercalliArray);
+            createTable(sortedArray);
+            break;
+        case "eventDeathArray":
+            activeList = "eventDeathArray";
+            sortedArray = itemSort(dataArray, eventDeathArray);
+            createTable(sortedArray);
+            break;
+        case "eventDateArray":
+            activeList = "eventDateArray";
+            sortedArray = itemSort(dataArray, eventDateArray);
+            createTable(sortedArray);
+            break;
     }
-
-}
+});
 
 //* ---------- Item sort ----------
-function itemSort(data) {
-    for (var index1 = 0; index1 < data.length; index1++) {
-        if (data[index1 + 1] && Number(data[index1].vittime) < Number(data[index1 + 1].vittime)) {
-            var swap = data[index1];
+function itemSort(obj, data) {
+    setData(obj);
+    var swap;
+    var swap1;
+    for (var index1 = 0; index1 < obj.length; index1++) {
+
+        if (obj[index1 + 1] && Number(data[index1]) < Number(data[index1 + 1])) {
+            swap = obj[index1];
+            obj[index1] = obj[index1 + 1];
+            obj[index1 + 1] = swap;
+            swap1 = data[index1];
             data[index1] = data[index1 + 1];
-            data[index1 + 1] = swap;
+            data[index1 + 1] = swap1;
 
             for (var index2 = index1; index2 >= 0; index2--) {
-                if (data[index2 - 1] && Number(data[index2].vittime) > Number(data[index2 - 1].vittime)) {
-                    swap = data[index2];
+                if (obj[index2 - 1] && Number(data[index2]) > Number(data[index2 - 1])) {
+                    swap = obj[index2];
+                    obj[index2] = obj[index2 - 1];
+                    obj[index2 - 1] = swap;
+                    swap1 = data[index2];
                     data[index2] = data[index2 - 1];
-                    data[index2 - 1] = swap;
+                    data[index2 - 1] = swap1;
                 } else {
                     break;
                 }
@@ -50,7 +89,7 @@ function itemSort(data) {
         }
 
     }
-    return data
+    return obj
 }
 
 //* ---------- Main ----------
@@ -69,7 +108,3 @@ mainCell[4] = mainRow.insertCell();
 mainCell[4].innerHTML = "Mercalli";
 mainCell[5] = mainRow.insertCell();
 mainCell[5].innerHTML = "Vittime";
-
-var sortedArray = itemSort(dataArray);
-
-createTable(sortedArray);

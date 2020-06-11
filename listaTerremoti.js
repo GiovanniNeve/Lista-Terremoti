@@ -938,7 +938,7 @@ var eventMercalliArray = [];
 var eventDeathArray = [];
 
 //* Fill array with JSON data
-function setData(data) {
+function setData(obj) {
     //* Clear the arrays
     eventDateArray = [];
     eventLocationArray = [];
@@ -948,13 +948,13 @@ function setData(data) {
     eventDeathArray = [];
 
     //* Fill the array
-    for (var i = 0; i < data.length; i++) {
-        eventDateArray.push(data[i].dataEvento);
-        eventLocationArray.push(data[i].luogo);
-        eventRitcherArray.push(data[i].ritcher);
-        eventMagnitudoArray.push(data[i].magnitudo);
-        eventMercalliArray.push(data[i].mercalli);
-        eventDeathArray.push(data[i].vittime);
+    for (var i = 0; i < obj.length; i++) {
+        eventDateArray.push(obj[i].dataEvento);
+        eventLocationArray.push(obj[i].luogo);
+        eventRitcherArray.push(obj[i].ritcher);
+        eventMagnitudoArray.push(obj[i].magnitudo);
+        eventMercalliArray.push(obj[i].mercalli);
+        eventDeathArray.push(obj[i].vittime);
     }
 }
 
