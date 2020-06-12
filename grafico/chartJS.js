@@ -3,6 +3,7 @@ var ctx = canvas.getContext('2d');
 var dataSelector = document.getElementById("dataSelector");
 var canvasChart = null;
 var activeChart = null;
+var tempDateArray = [];
 
 dataSelector.addEventListener("click", () => {
     var selector = document.getElementById("dataSelector").value;
@@ -29,16 +30,20 @@ dataSelector.addEventListener("click", () => {
 });
 
 function makeChart(modLabel, type) {
-
     if (Object.prototype.toString.call(canvasChart) === '[object Object]') {
+        tempDateArray = [];
         canvasChart.destroy();
+    }
+
+    for (var i of eventDateArray) {
+        tempDateArray.push(i.getDate() + "/" + (i.getMonth() + 1) + "/" + i.getFullYear());
     }
 
     //* Create chart
     canvasChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: eventDateArray,
+            labels: tempDateArray,
             datasets: [{
                 label: '# of ' + type,
                 data: modLabel,

@@ -1,6 +1,5 @@
 var mainTable = document.getElementById("mainTable");
 var dataSelector = document.getElementById("dataSelector");
-var sortedArray;
 var activeList = null;
 
 //*---------- Function that create the table ----------
@@ -10,7 +9,7 @@ function createTable(obj) {
         let row = mainTable.insertRow(index1);
         let cell = new Array(6);
         cell[0] = row.insertCell();
-        cell[0].innerHTML = eventDateArray[index1 - 1];
+        cell[0].innerHTML = eventDateArray[index1 - 1].getDate() + "/" + (eventDateArray[index1 - 1].getMonth() + 1) + "/" + eventDateArray[index1 - 1].getFullYear();
         cell[1] = row.insertCell();
         cell[1].innerHTML = eventLocationArray[index1 - 1];
         cell[2] = row.insertCell();
@@ -33,28 +32,28 @@ dataSelector.addEventListener("click", () => {
             break;
         case "eventRitcherArray":
             activeList = "eventRitcherArray";
-            sortedArray = itemSort(dataArray, eventRitcherArray);
-            createTable(sortedArray);
+            itemSort(dataArray, eventRitcherArray);
+            createTable(dataArray);
             break;
         case "eventMagnitudoArray":
             activeList = "eventMagnitudoArray";
-            sortedArray = itemSort(dataArray, eventMagnitudoArray);
-            createTable(sortedArray);
+            itemSort(dataArray, eventMagnitudoArray);
+            createTable(dataArray);
             break;
         case "eventMercalliArray":
             activeList = "eventMercalliArray";
-            sortedArray = itemSort(dataArray, eventMercalliArray);
-            createTable(sortedArray);
+            itemSort(dataArray, eventMercalliArray);
+            createTable(dataArray);
             break;
         case "eventDeathArray":
             activeList = "eventDeathArray";
-            sortedArray = itemSort(dataArray, eventDeathArray);
-            createTable(sortedArray);
+            itemSort(dataArray, eventDeathArray);
+            createTable(dataArray);
             break;
         case "eventDateArray":
             activeList = "eventDateArray";
-            sortedArray = itemSort(dataArray, eventDateArray);
-            createTable(sortedArray);
+            itemSort(dataArray, eventDateArray);
+            createTable(dataArray);
             break;
     }
 });

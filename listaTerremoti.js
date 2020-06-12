@@ -1,7 +1,7 @@
 var dataArray = [
 
     {
-        "dataEvento": "30/10/1901",
+        "dataEvento": "10/30/1901",
         "luogo": "Salò",
         "ritcher": "0",
         "magnitudo": "0",
@@ -10,7 +10,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "24/02/1904",
+        "dataEvento": "02/24/1904",
         "luogo": "Magliano dei Marsi",
         "ritcher": "0",
         "magnitudo": "5.7",
@@ -19,7 +19,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "08/09/1905",
+        "dataEvento": "09/08/1905",
         "luogo": "Nicastro",
         "ritcher": "0",
         "magnitudo": "7.1",
@@ -28,7 +28,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "23/10/1907",
+        "dataEvento": "10/23/1907",
         "luogo": "Canolo e San Luca",
         "ritcher": "0",
         "magnitudo": "0",
@@ -37,7 +37,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "18/12/1907",
+        "dataEvento": "12/18/1907",
         "luogo": "Irpinia e Basilicata",
         "ritcher": "0",
         "magnitudo": "0",
@@ -46,7 +46,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "28/12/1908",
+        "dataEvento": "12/28/1908",
         "luogo": "Messina",
         "ritcher": "0",
         "magnitudo": "7.2",
@@ -55,7 +55,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "07/06/1910",
+        "dataEvento": "06/07/1910",
         "luogo": "Calitri",
         "ritcher": "0",
         "magnitudo": "0",
@@ -64,7 +64,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/10/1911",
+        "dataEvento": "10/15/1911",
         "luogo": "Etna",
         "ritcher": "0",
         "magnitudo": "0",
@@ -73,7 +73,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "08/05/1914",
+        "dataEvento": "05/08/1914",
         "luogo": "linera",
         "ritcher": "0",
         "magnitudo": "0",
@@ -82,7 +82,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/10/1914",
+        "dataEvento": "10/26/1914",
         "luogo": "Val Sangone",
         "ritcher": "5.2",
         "magnitudo": "5.3",
@@ -91,7 +91,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "13/01/1915",
+        "dataEvento": "01/13/1915",
         "luogo": "Avezzano",
         "ritcher": "0",
         "magnitudo": "7",
@@ -100,7 +100,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "16/08/1916",
+        "dataEvento": "08/16/1916",
         "luogo": "Provincia di Pesaro",
         "ritcher": "0",
         "magnitudo": "0",
@@ -109,7 +109,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/04/1917",
+        "dataEvento": "04/26/1917",
         "luogo": "Umbria e Toscana",
         "ritcher": "0",
         "magnitudo": "0",
@@ -118,7 +118,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "24/11/1918",
+        "dataEvento": "11/24/1918",
         "luogo": "Giarre",
         "ritcher": "0",
         "magnitudo": "0",
@@ -127,7 +127,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "29/06/1919",
+        "dataEvento": "06/29/1919",
         "luogo": "Vicchio",
         "ritcher": "0",
         "magnitudo": "6.2",
@@ -136,7 +136,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "22/10/1919",
+        "dataEvento": "10/22/1919",
         "luogo": "Anzio",
         "ritcher": "0",
         "magnitudo": "0",
@@ -145,7 +145,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "07/09/1920",
+        "dataEvento": "09/07/1920",
         "luogo": "Fivizzano e Villa Collemandina",
         "ritcher": "0",
         "magnitudo": "6.8",
@@ -154,7 +154,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "29/12/1922",
+        "dataEvento": "12/29/1922",
         "luogo": "Frosinone",
         "ritcher": "0",
         "magnitudo": "0",
@@ -163,7 +163,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "02/01/1924",
+        "dataEvento": "01/02/1924",
         "luogo": "Senigallia",
         "ritcher": "0",
         "magnitudo": "0",
@@ -172,7 +172,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "17/08/1926",
+        "dataEvento": "08/17/1926",
         "luogo": "Isole Eolie",
         "ritcher": "0",
         "magnitudo": "0",
@@ -181,7 +181,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/12/1927",
+        "dataEvento": "12/26/1927",
         "luogo": "Colli Albani",
         "ritcher": "0",
         "magnitudo": "4.8",
@@ -190,7 +190,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "17/03/1928",
+        "dataEvento": "03/17/1928",
         "luogo": "Carnia",
         "ritcher": "0",
         "magnitudo": "0",
@@ -199,7 +199,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "10/04/1929",
+        "dataEvento": "04/10/1929",
         "luogo": "Bologna",
         "ritcher": "0",
         "magnitudo": "0",
@@ -208,7 +208,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "23/07/1930",
+        "dataEvento": "07/23/1930",
         "luogo": "Bisaccia e Lacedonia",
         "ritcher": "0",
         "magnitudo": "6.7",
@@ -217,7 +217,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "30/10/1930",
+        "dataEvento": "10/30/1930",
         "luogo": "Provincia di Pesaro",
         "ritcher": "0",
         "magnitudo": "0",
@@ -226,7 +226,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/09/1933",
+        "dataEvento": "09/26/1933",
         "luogo": "Majella",
         "ritcher": "0",
         "magnitudo": "0",
@@ -235,7 +235,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "18/10/1936",
+        "dataEvento": "10/18/1936",
         "luogo": "Prealpi Trevigiane",
         "ritcher": "5.9",
         "magnitudo": "0",
@@ -244,7 +244,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "13/04/1938",
+        "dataEvento": "04/13/1938",
         "luogo": "Mar Tirreno",
         "ritcher": "0",
         "magnitudo": "0",
@@ -253,7 +253,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/01/1940",
+        "dataEvento": "01/15/1940",
         "luogo": "Palermo",
         "ritcher": "0",
         "magnitudo": "0",
@@ -262,7 +262,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "03/10/1943",
+        "dataEvento": "10/03/1943",
         "luogo": "Offida e Castignano",
         "ritcher": "0",
         "magnitudo": "0",
@@ -271,7 +271,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "14/06/1945",
+        "dataEvento": "06/14/1945",
         "luogo": "Oltrepò Pavese",
         "ritcher": "4.8",
         "magnitudo": "4.9",
@@ -280,7 +280,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "29/06/1945",
+        "dataEvento": "06/29/1945",
         "luogo": "Oltrepò Pavese",
         "ritcher": "5.1",
         "magnitudo": "5.3",
@@ -289,7 +289,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/12/1945",
+        "dataEvento": "12/15/1945",
         "luogo": "Oltrepò Pavese",
         "ritcher": "4.7",
         "magnitudo": "0",
@@ -298,7 +298,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "10/05/1947",
+        "dataEvento": "05/10/1947",
         "luogo": "Golfo di Squillace",
         "ritcher": "0",
         "magnitudo": "0",
@@ -307,7 +307,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "13/06/1948",
+        "dataEvento": "06/13/1948",
         "luogo": "Sansepolcro",
         "ritcher": "0",
         "magnitudo": "0",
@@ -316,7 +316,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "18/08/1948",
+        "dataEvento": "08/18/1948",
         "luogo": "Gargano",
         "ritcher": "0",
         "magnitudo": "0",
@@ -325,7 +325,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "05/09/1950",
+        "dataEvento": "09/05/1950",
         "luogo": "Fano Adriano",
         "ritcher": "0",
         "magnitudo": "5.8",
@@ -334,7 +334,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/05/1951",
+        "dataEvento": "05/15/1951",
         "luogo": "Montescano",
         "ritcher": "5.2",
         "magnitudo": "0",
@@ -343,7 +343,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "01/09/1951",
+        "dataEvento": "09/01/1951",
         "luogo": "Marche",
         "ritcher": "0",
         "magnitudo": "0",
@@ -352,7 +352,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "12/05/1955",
+        "dataEvento": "05/12/1955",
         "luogo": "valle Maria",
         "ritcher": "4.7",
         "magnitudo": "0",
@@ -361,7 +361,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "20/06/1955",
+        "dataEvento": "06/20/1955",
         "luogo": "Valle Maria",
         "ritcher": "4.8",
         "magnitudo": "0",
@@ -370,7 +370,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "24/06/1958",
+        "dataEvento": "06/24/1958",
         "luogo": "L'Aquila",
         "ritcher": "0",
         "magnitudo": "0",
@@ -379,7 +379,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "21/08/1962",
+        "dataEvento": "08/21/1962",
         "luogo": "Ariano Irpino",
         "ritcher": "0",
         "magnitudo": "0",
@@ -388,7 +388,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "31/10/1967",
+        "dataEvento": "10/31/1967",
         "luogo": "Mistretta",
         "ritcher": "5.9",
         "magnitudo": "0",
@@ -397,7 +397,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/01/1968",
+        "dataEvento": "01/15/1968",
         "luogo": "Gibellina",
         "ritcher": "0",
         "magnitudo": "6.1",
@@ -406,7 +406,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "06/02/1971",
+        "dataEvento": "02/06/1971",
         "luogo": "Tuscania e Tarquinia",
         "ritcher": "0",
         "magnitudo": "5.6",
@@ -415,7 +415,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/06/1972",
+        "dataEvento": "06/15/1972",
         "luogo": "Ancona",
         "ritcher": "0",
         "magnitudo": "0",
@@ -424,7 +424,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/11/1972",
+        "dataEvento": "11/26/1972",
         "luogo": "Comunanza",
         "ritcher": "0",
         "magnitudo": "5.5",
@@ -433,7 +433,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "06/05/1976",
+        "dataEvento": "05/06/1976",
         "luogo": "Artenga",
         "ritcher": "0",
         "magnitudo": "6.4",
@@ -442,7 +442,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/04/1978",
+        "dataEvento": "04/15/1978",
         "luogo": "Golfo di Patti",
         "ritcher": "0",
         "magnitudo": "0",
@@ -451,7 +451,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "25/09/1978",
+        "dataEvento": "09/25/1978",
         "luogo": "matera",
         "ritcher": "0",
         "magnitudo": "0",
@@ -460,7 +460,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "19/09/1979",
+        "dataEvento": "09/19/1979",
         "luogo": "Norcia",
         "ritcher": "0",
         "magnitudo": "0",
@@ -469,7 +469,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "05/01/1980",
+        "dataEvento": "01/05/1980",
         "luogo": "Val Sangone",
         "ritcher": "4.8",
         "magnitudo": "5",
@@ -478,7 +478,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "23/11/1980",
+        "dataEvento": "11/23/1980",
         "luogo": "Castelnuovo di Conza",
         "ritcher": "0",
         "magnitudo": "6.9",
@@ -487,7 +487,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "04/10/1983",
+        "dataEvento": "10/04/1983",
         "luogo": "Napoli e Pozzulli",
         "ritcher": "0",
         "magnitudo": "0",
@@ -496,7 +496,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "24/04/1985",
+        "dataEvento": "04/24/1985",
         "luogo": "Livorno",
         "ritcher": "0",
         "magnitudo": "0",
@@ -505,7 +505,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "29/04/1984",
+        "dataEvento": "04/29/1984",
         "luogo": "Gubbio",
         "ritcher": "0",
         "magnitudo": "0",
@@ -514,7 +514,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "07/05/1984",
+        "dataEvento": "05/07/1984",
         "luogo": "San Donato",
         "ritcher": "0",
         "magnitudo": "5.9",
@@ -523,7 +523,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "03/07/1987",
+        "dataEvento": "07/03/1987",
         "luogo": "Porto San Giorgio",
         "ritcher": "0",
         "magnitudo": "0",
@@ -541,7 +541,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "13/12/1990",
+        "dataEvento": "12/13/1990",
         "luogo": "Basilicata",
         "ritcher": "0",
         "magnitudo": "0",
@@ -550,7 +550,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/05/1991",
+        "dataEvento": "05/26/1991",
         "luogo": "Carlentini",
         "ritcher": "0",
         "magnitudo": "0",
@@ -559,7 +559,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "21/04/1995",
+        "dataEvento": "04/21/1995",
         "luogo": "Riviera di Ponente",
         "ritcher": "0",
         "magnitudo": "0",
@@ -568,7 +568,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "30/09/1995",
+        "dataEvento": "09/30/1995",
         "luogo": "Peschici",
         "ritcher": "0",
         "magnitudo": "0",
@@ -586,7 +586,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/10/1996",
+        "dataEvento": "10/15/1996",
         "luogo": "Reggio nell'Emilia",
         "ritcher": "0",
         "magnitudo": "0",
@@ -595,7 +595,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/09/1997",
+        "dataEvento": "09/26/1997",
         "luogo": "Annifo e Colfiorito",
         "ritcher": "0",
         "magnitudo": "5.9",
@@ -613,7 +613,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "23/09/1998",
+        "dataEvento": "09/23/1998",
         "luogo": "Provincia di Foggia",
         "ritcher": "0",
         "magnitudo": "0",
@@ -622,7 +622,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "25/01/1999",
+        "dataEvento": "01/25/1999",
         "luogo": "Provincia di Forli-Cesena",
         "ritcher": "0",
         "magnitudo": "0",
@@ -631,7 +631,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "14/02/1999",
+        "dataEvento": "02/14/1999",
         "luogo": "Golfo di Patti",
         "ritcher": "0",
         "magnitudo": "0",
@@ -649,7 +649,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "09/10/1999",
+        "dataEvento": "10/09/1999",
         "luogo": "Vasuio",
         "ritcher": "0",
         "magnitudo": "0",
@@ -658,7 +658,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "29/12/1999",
+        "dataEvento": "12/29/1999",
         "luogo": "valtellina",
         "ritcher": "0",
         "magnitudo": "0",
@@ -667,7 +667,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "21/08/2000",
+        "dataEvento": "08/21/2000",
         "luogo": "Bergamasco",
         "ritcher": "4.7",
         "magnitudo": "4.9",
@@ -676,7 +676,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "17/07/2001",
+        "dataEvento": "07/17/2001",
         "luogo": "Alto Adige",
         "ritcher": "5.2",
         "magnitudo": "0",
@@ -685,7 +685,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "06/09/2002",
+        "dataEvento": "09/06/2002",
         "luogo": "Mar Tirreno",
         "ritcher": "0",
         "magnitudo": "5.6",
@@ -694,7 +694,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "31/10/2002",
+        "dataEvento": "10/31/2002",
         "luogo": "San Giuliano",
         "ritcher": "5.8",
         "magnitudo": "6.0",
@@ -703,7 +703,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "11/04/2003",
+        "dataEvento": "04/11/2003",
         "luogo": "Valle Scrivia",
         "ritcher": "4.8",
         "magnitudo": "5",
@@ -712,7 +712,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "14/09/2003",
+        "dataEvento": "09/14/2003",
         "luogo": "Bologna",
         "ritcher": "5",
         "magnitudo": "0",
@@ -721,7 +721,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "24/11/2004",
+        "dataEvento": "11/24/2004",
         "luogo": "Salò",
         "ritcher": "5.3",
         "magnitudo": "0",
@@ -730,7 +730,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/10/2006",
+        "dataEvento": "10/26/2006",
         "luogo": "Stromboli",
         "ritcher": "0",
         "magnitudo": "5.6",
@@ -739,7 +739,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "17/12/2008",
+        "dataEvento": "12/17/2008",
         "luogo": "Mar Tirreno",
         "ritcher": "5.3",
         "magnitudo": "0",
@@ -748,7 +748,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "23/12/2008",
+        "dataEvento": "12/23/2008",
         "luogo": "Parma",
         "ritcher": "5.2",
         "magnitudo": "0",
@@ -757,7 +757,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "06/04/2009",
+        "dataEvento": "04/06/2009",
         "luogo": "L'Aquila",
         "ritcher": "5.9",
         "magnitudo": "6.3",
@@ -766,7 +766,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "27/01/2012",
+        "dataEvento": "01/27/2012",
         "luogo": "Comiglio",
         "ritcher": "0",
         "magnitudo": "5.4",
@@ -775,7 +775,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "20/05/2012",
+        "dataEvento": "05/20/2012",
         "luogo": "Finale Emilia",
         "ritcher": "5.9",
         "magnitudo": "5.86",
@@ -784,7 +784,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "29/05/2012",
+        "dataEvento": "05/29/2012",
         "luogo": "Medolla",
         "ritcher": "5.8",
         "magnitudo": "5.66",
@@ -793,7 +793,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/10/2012",
+        "dataEvento": "10/26/2012",
         "luogo": "Mormanno",
         "ritcher": "5",
         "magnitudo": "5.2",
@@ -802,7 +802,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "21/06/2013",
+        "dataEvento": "06/21/2013",
         "luogo": "Fivizzano",
         "ritcher": "5.2",
         "magnitudo": "0",
@@ -811,7 +811,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "29/12/2013",
+        "dataEvento": "12/29/2013",
         "luogo": "San Potito Sannitico",
         "ritcher": "5",
         "magnitudo": "0",
@@ -820,7 +820,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "24/08/2016",
+        "dataEvento": "08/24/2016",
         "luogo": "Accumoli",
         "ritcher": "6",
         "magnitudo": "6",
@@ -829,7 +829,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/10/2016",
+        "dataEvento": "10/26/2016",
         "luogo": "Castelsantangelo",
         "ritcher": "0",
         "magnitudo": "5.6",
@@ -838,7 +838,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "28/10/2016",
+        "dataEvento": "10/28/2016",
         "luogo": "Mar Tirreno",
         "ritcher": "5.7",
         "magnitudo": "0",
@@ -847,7 +847,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "30/10/2016",
+        "dataEvento": "10/30/2016",
         "luogo": "Norcia",
         "ritcher": "6.1",
         "magnitudo": "6.5",
@@ -856,7 +856,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "18/01/2017",
+        "dataEvento": "01/18/2017",
         "luogo": "Capitignano",
         "ritcher": "5.3",
         "magnitudo": "5.4",
@@ -865,7 +865,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "21/08/2017",
+        "dataEvento": "08/21/2017",
         "luogo": "Casamicciola Terme",
         "ritcher": "4",
         "magnitudo": "4",
@@ -874,7 +874,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "14/08/1028",
+        "dataEvento": "08/14/1028",
         "luogo": "Montecifone",
         "ritcher": "4.8",
         "magnitudo": "4.8",
@@ -883,7 +883,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "06/10/2018",
+        "dataEvento": "10/06/2018",
         "luogo": "Regalna",
         "ritcher": "4.8",
         "magnitudo": "4.6",
@@ -892,7 +892,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "26/12/2018",
+        "dataEvento": "12/26/2018",
         "luogo": "Viagrande",
         "ritcher": "4.8",
         "magnitudo": "4.9",
@@ -901,7 +901,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "15/01/2019",
+        "dataEvento": "01/15/2019",
         "luogo": "Ravenna",
         "ritcher": "4.6",
         "magnitudo": "4.3",
@@ -910,7 +910,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "09/12/2019",
+        "dataEvento": "12/09/2019",
         "luogo": "Scarpiera e San Piero",
         "ritcher": "4.5",
         "magnitudo": "4.5",
@@ -919,7 +919,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "24/02/2020",
+        "dataEvento": "02/24/2020",
         "luogo": "Castiglione Cosentino",
         "ritcher": "4.4",
         "magnitudo": "4.3",
@@ -949,7 +949,8 @@ function setData(obj) {
 
     //* Fill the array
     for (var i = 0; i < obj.length; i++) {
-        eventDateArray.push(obj[i].dataEvento);
+        let tempDate = new Date(obj[i].dataEvento)
+        eventDateArray.push(tempDate);
         eventLocationArray.push(obj[i].luogo);
         eventRitcherArray.push(obj[i].ritcher);
         eventMagnitudoArray.push(obj[i].magnitudo);
