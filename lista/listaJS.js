@@ -4,10 +4,10 @@ var activeList = null;
 
 //*---------- Function that create the table ----------
 function createTable(obj) {
-    for (var i = 1; i < mainTable.rows.length; i++) {
-        mainTable.rows[i].innerHTML = "";
-    }
     setData(obj);
+    while (mainTable.rows[1]) {
+        mainTable.rows[1].remove();
+    }
     for (var index1 = 1; index1 < obj.length + 1; index1++) {
         let row = mainTable.insertRow(index1);
         let cell = new Array(6);

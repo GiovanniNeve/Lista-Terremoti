@@ -874,7 +874,7 @@ var dataArray = [
     },
 
     {
-        "dataEvento": "08/14/1028",
+        "dataEvento": "08/14/1928",
         "luogo": "Montecifone",
         "ritcher": "4.8",
         "magnitudo": "4.8",
