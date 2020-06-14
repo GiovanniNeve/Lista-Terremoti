@@ -95,18 +95,3 @@ function itemSort(obj, data) {
 }
 
 //* ---------- Main ----------
-
-let mainRow = mainTable.insertRow();
-let mainCell = new Array(6);
-mainCell[0] = mainRow.insertCell();
-mainCell[0].innerHTML = "Data";
-mainCell[1] = mainRow.insertCell();
-mainCell[1].innerHTML = "Luogo";
-mainCell[2] = mainRow.insertCell();
-mainCell[2].innerHTML = "Ritcher";
-mainCell[3] = mainRow.insertCell();
-mainCell[3].innerHTML = "Magnitudo";
-mainCell[4] = mainRow.insertCell();
-mainCell[4].innerHTML = "Mercalli";
-mainCell[5] = mainRow.insertCell();
-mainCell[5].innerHTML = "Vittime";

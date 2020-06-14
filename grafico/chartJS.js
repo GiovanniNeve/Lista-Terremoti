@@ -47,28 +47,51 @@ function makeChart(modLabel, type) {
             datasets: [{
                 label: '# of ' + type,
                 data: modLabel,
-                backgroundColor: 'rgba(250, 107, 107, 0.2)',
+                backgroundColor: '#2eda0c59',
                 borderColor: 'rgba(247, 29, 29, 0.4)',
+
                 borderWidth: 1
+
             }]
+
         },
+
         options: {
+
             scales: {
+
                 yAxes: [{
+
                     ticks: {
+
                         beginAtZero: true
+
                     }
+
                 }]
+
             },
+
             tooltips: {
+
                 mode: 'index',
+
                 intersect: false
+
             },
+
             hover: {
+
                 mode: 'index',
+
                 intersect: false
+
             }
+
         }
+
     });
+
+
 
 }

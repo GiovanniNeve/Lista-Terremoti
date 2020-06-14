@@ -1,6 +1,7 @@
 nav {
     position: absolute;
     display: inline-block;
+    width: 100%;
 }
 
 button {
@@ -34,6 +35,11 @@ h1 {
     text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 
+h6 {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 90%;
+}
+
 iframe {
     margin-top: 40px;
     width: 100%;
@@ -55,9 +61,38 @@ iframe {
     z-index: 1;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-    padding: 4px;
+table {
+    font-family: Raleway, serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #23a708b0;
+    color: white;
+}
+
+canvas {
+    max-width: 85%;
+    margin-left: 7%;
 }
