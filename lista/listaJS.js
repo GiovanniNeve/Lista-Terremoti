@@ -103,3 +103,5 @@ function itemSort(obj, data) {
 }
 
 //* ---------- Main ----------
+
+createTable(dataArray);
