@@ -74,7 +74,7 @@ var dataArray = [
 
     {
         "dataEvento": "05/08/1914",
-        "luogo": "linera",
+        "luogo": "Linera",
         "ritcher": "0",
         "magnitudo": "0",
         "mercalli": "9.5",
@@ -353,7 +353,7 @@ var dataArray = [
 
     {
         "dataEvento": "05/12/1955",
-        "luogo": "valle Maria",
+        "luogo": "Valle Maria",
         "ritcher": "4.7",
         "magnitudo": "0",
         "mercalli": "6.5",
@@ -452,7 +452,7 @@ var dataArray = [
 
     {
         "dataEvento": "09/25/1978",
-        "luogo": "matera",
+        "luogo": "Matera",
         "ritcher": "0",
         "magnitudo": "0",
         "mercalli": "0",
@@ -659,7 +659,7 @@ var dataArray = [
 
     {
         "dataEvento": "12/29/1999",
-        "luogo": "valtellina",
+        "luogo": "Valtellina",
         "ritcher": "0",
         "magnitudo": "0",
         "mercalli": "6",
@@ -952,10 +952,10 @@ function setData(obj) {
         let tempDate = new Date(obj[i].dataEvento)
         eventDateArray.push(tempDate);
         eventLocationArray.push(obj[i].luogo);
-        eventRitcherArray.push(obj[i].ritcher);
-        eventMagnitudoArray.push(obj[i].magnitudo);
-        eventMercalliArray.push(obj[i].mercalli);
-        eventDeathArray.push(obj[i].vittime);
+        eventRitcherArray.push(Number(obj[i].ritcher));
+        eventMagnitudoArray.push(Number(obj[i].magnitudo));
+        eventMercalliArray.push(Number(obj[i].mercalli));
+        eventDeathArray.push(Number(obj[i].vittime));
     }
 }
 

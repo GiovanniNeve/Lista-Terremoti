@@ -1,8 +1,8 @@
 var mainTable = document.getElementById("mainTable");
-var dataSelector = document.getElementById("dataSelector");
+var rowsArray = document.querySelectorAll("th");
 var activeList = null;
 
-//*---------- Function that create the table ----------
+//* ---------- Function that create the table ----------
 function createTable(obj) {
     setData(obj);
     while (mainTable.rows[1]) {
@@ -28,37 +28,45 @@ function createTable(obj) {
 }
 
 //* ---------- Get data from selector ----------
-dataSelector.addEventListener("click", () => {
-    var selector = document.getElementById("dataSelector").value;
-    switch (selector) {
-        case activeList:
-            break;
-        case "eventRitcherArray":
-            activeList = "eventRitcherArray";
-            itemSort(dataArray, eventRitcherArray);
-            createTable(dataArray);
-            break;
-        case "eventMagnitudoArray":
-            activeList = "eventMagnitudoArray";
-            itemSort(dataArray, eventMagnitudoArray);
-            createTable(dataArray);
-            break;
-        case "eventMercalliArray":
-            activeList = "eventMercalliArray";
-            itemSort(dataArray, eventMercalliArray);
-            createTable(dataArray);
-            break;
-        case "eventDeathArray":
-            activeList = "eventDeathArray";
-            itemSort(dataArray, eventDeathArray);
-            createTable(dataArray);
-            break;
-        case "eventDateArray":
-            activeList = "eventDateArray";
-            itemSort(dataArray, eventDateArray);
-            createTable(dataArray);
-            break;
-    }
+
+rowsArray.forEach((val, index) => {
+    val.addEventListener("click", () => {
+
+        switch (val.id) {
+            case activeList:
+                break;
+            case "eventRitcherArray":
+                activeList = "eventRitcherArray";
+                itemSort(dataArray, eventRitcherArray);
+                createTable(dataArray);
+                break;
+            case "eventMagnitudoArray":
+                activeList = "eventMagnitudoArray";
+                itemSort(dataArray, eventMagnitudoArray);
+                createTable(dataArray);
+                break;
+            case "eventMercalliArray":
+                activeList = "eventMercalliArray";
+                itemSort(dataArray, eventMercalliArray);
+                createTable(dataArray);
+                break;
+            case "eventDeathArray":
+                activeList = "eventDeathArray";
+                itemSort(dataArray, eventDeathArray);
+                createTable(dataArray);
+                break;
+            case "eventDateArray":
+                activeList = "eventDateArray";
+                itemSort(dataArray, eventDateArray);
+                createTable(dataArray);
+                break;
+            case "eventLocationArray":
+                activeList = "eventLocationArray";
+                itemSort(dataArray, eventLocationArray);
+                createTable(dataArray);
+                break;
+        }
+    });
 });
 
 //* ---------- Item sort ----------
@@ -68,7 +76,7 @@ function itemSort(obj, data) {
     var swap1;
     for (var index1 = 0; index1 < obj.length; index1++) {
 
-        if (obj[index1 + 1] && Number(data[index1]) < Number(data[index1 + 1])) {
+        if (obj[index1 + 1] && data[index1] < data[index1 + 1]) {
             swap = obj[index1];
             obj[index1] = obj[index1 + 1];
             obj[index1 + 1] = swap;
@@ -77,7 +85,7 @@ function itemSort(obj, data) {
             data[index1 + 1] = swap1;
 
             for (var index2 = index1; index2 >= 0; index2--) {
-                if (obj[index2 - 1] && Number(data[index2]) > Number(data[index2 - 1])) {
+                if (obj[index2 - 1] && data[index2] > data[index2 - 1]) {
                     swap = obj[index2];
                     obj[index2] = obj[index2 - 1];
                     obj[index2 - 1] = swap;
