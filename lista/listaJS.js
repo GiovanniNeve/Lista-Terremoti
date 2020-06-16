@@ -16,7 +16,7 @@ function createTable(obj) {
         cell[1] = row.insertCell();
         cell[1].innerHTML = eventLocationArray[index1 - 1];
         cell[2] = row.insertCell();
-        cell[2].innerHTML = eventRitcherArray[index1 - 1];
+        cell[2].innerHTML = eventRichterArray[index1 - 1];
         cell[3] = row.insertCell();
         cell[3].innerHTML = eventMagnitudoArray[index1 - 1];
         cell[4] = row.insertCell();
@@ -35,9 +35,9 @@ rowsArray.forEach((val, index) => {
         switch (val.id) {
             case activeList:
                 break;
-            case "eventRitcherArray":
-                activeList = "eventRitcherArray";
-                itemSort(dataArray, eventRitcherArray);
+            case "eventRichterArray":
+                activeList = "eventRichterArray";
+                itemSort(dataArray, eventRichterArray);
                 createTable(dataArray);
                 break;
             case "eventMagnitudoArray":

@@ -10,9 +10,9 @@ dataSelector.addEventListener("click", () => {
     switch (selector) {
         case activeChart:
             break;
-        case "eventRitcherArray":
-            activeChart = "eventRitcherArray";
-            makeChart(eventRitcherArray, 'Ritcher');
+        case "eventRichterArray":
+            activeChart = "eventRichterArray";
+            makeChart(eventRichterArray, 'Richter');
             break;
         case "eventMagnitudoArray":
             activeChart = "eventMagnitudoArray";
