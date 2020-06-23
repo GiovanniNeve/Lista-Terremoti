@@ -5,6 +5,7 @@ var canvasChart = null;
 var activeChart = null;
 var tempDateArray = [];
 
+//* Select type of data
 dataSelector.addEventListener("click", () => {
     var selector = document.getElementById("dataSelector").value;
     switch (selector) {
@@ -29,6 +30,7 @@ dataSelector.addEventListener("click", () => {
     }
 });
 
+//* Create chart function
 function makeChart(modLabel, type) {
     if (Object.prototype.toString.call(canvasChart) === '[object Object]') {
         tempDateArray = [];

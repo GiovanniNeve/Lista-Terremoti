@@ -1,3 +1,5 @@
+/** General settings */
+
 body {
     margin: 0px;
 }
@@ -9,6 +11,9 @@ nav {
     margin-top: 10px;
     margin-left: 10px;
 }
+
+
+/** Button settings */
 
 button {
     width: 150px;
@@ -28,6 +33,9 @@ button:hover {
     background-color: #5add3f;
 }
 
+
+/** Select settings */
+
 select {
     margin: 10px;
     width: 150px;
@@ -35,6 +43,9 @@ select {
     font-size: large;
     float: none;
 }
+
+
+/** Text settings */
 
 h1 {
     margin: 10px;
@@ -63,6 +74,14 @@ p {
     margin: 10px;
 }
 
+.testo {
+    width: 50%;
+    float: left;
+}
+
+
+/** Iframe settings */
+
 iframe {
     margin-top: 40px;
     width: 100%;
@@ -70,19 +89,8 @@ iframe {
     z-index: 1;
 }
 
-.hide {
-    display: none;
-}
 
-#setButton {
-    float: left;
-}
-
-iframe {
-    width: 100%;
-    height: 94%;
-    z-index: 1;
-}
+/** Table settings */
 
 table {
     font-family: Raleway, serif;
@@ -119,13 +127,31 @@ table th:hover {
     background-color: #29a510b0;
 }
 
+
+/** Canvas settings */
+
 canvas {
     max-width: 85%;
     margin-left: 7%;
 }
 
+
+/** Images settings */
+
 img {
+    width: 24%;
     margin: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+img:hover {
+    width: 27%;
+}
+
+
+/** Utility class */
+
+.hide {
+    display: none;
 }

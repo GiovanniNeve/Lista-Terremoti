@@ -17,7 +17,7 @@ function checkMenu() {
     }
 }
 
-//* -------------------- Main --------------------
+//* Main
 
 //* Open iframe when button clicked
 buttons.forEach((value, index) => {

@@ -2,7 +2,7 @@ var mainTable = document.getElementById("mainTable");
 var rowsArray = document.querySelectorAll("th");
 var activeList = null;
 
-//* ---------- Function that create the table ----------
+//* Create table
 function createTable(obj) {
     setData(obj);
     while (mainTable.rows[1]) {
@@ -27,7 +27,7 @@ function createTable(obj) {
 
 }
 
-//* ---------- Get data from selector ----------
+//* Select type of sort from table
 
 rowsArray.forEach((val, index) => {
     val.addEventListener("click", () => {
@@ -69,7 +69,7 @@ rowsArray.forEach((val, index) => {
     });
 });
 
-//* ---------- Item sort ----------
+//* Item sort
 function itemSort(obj, data) {
     setData(obj);
     var swap;
@@ -102,6 +102,6 @@ function itemSort(obj, data) {
     return obj
 }
 
-//* ---------- Main ----------
+//* Main
 
 createTable(dataArray);
