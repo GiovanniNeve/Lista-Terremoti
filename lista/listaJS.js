@@ -1,6 +1,9 @@
 var mainTable = document.getElementById("mainTable");
 var rowsArray = document.querySelectorAll("th");
 var activeList = null;
+var searchBtn = document.getElementById("searchBtn");
+var searchInput = document.getElementById("searchInput");
+var restoreBtn = document.getElementById("restoreBtn");
 
 //* Create table
 function createTable(obj) {
@@ -101,6 +104,25 @@ function itemSort(obj, data) {
     }
     return obj
 }
+
+//* Search item in table
+searchBtn.addEventListener("click", () => {
+    let searchData = searchInput.value;
+    let searchArray = [];
+    for (var i = 0; i < dataArray.length; i++) {
+        let tempDate = eventDateArray[i].getDate() + "/" + (eventDateArray[i].getMonth() + 1) + "/" + eventDateArray[i].getFullYear();
+        if (searchData == tempDate || searchData == eventDeathArray[i] || searchData == eventLocationArray[i] || searchData == eventMercalliArray[i] || searchData == eventRichterArray[i]) {
+            searchArray.push(dataArray[i]);
+        }
+    }
+    createTable(searchArray);
+});
+
+//* Restore table
+restoreBtn.addEventListener("click", () => {
+    searchInput.value = "";
+    createTable(dataArray);
+});
 
 //* Main
 
